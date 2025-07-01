@@ -1,0 +1,186 @@
+I have 5 datasets . I intend to use them to demonstrate knowledge i have gained in data science and from my statistics degree to apply tools and concepts to get intepretations that are somehow relevant to some business operations i guess
+1. 
+Context
+This classic dataset contains the prices and other attributes of almost 54,000 diamonds. It's a great dataset for beginners learning to work with data analysis and visualization.
+
+Content
+price price in US dollars (\$326--\$18,823)
+
+carat weight of the diamond (0.2--5.01)
+
+cut quality of the cut (Fair, Good, Very Good, Premium, Ideal)
+
+color diamond colour, from J (worst) to D (best)
+
+clarity a measurement of how clear the diamond is (I1 (worst), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (best))
+
+x length in mm (0--10.74)
+
+y width in mm (0--58.9)
+
+z depth in mm (0--31.8)
+
+depth total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43--79)
+
+table width of top of diamond relative to widest point (43--95)
+URL: https://www.kaggle.com/datasets/shivam2503/diamonds
+
+2. 
+About this file
+Variables Description
+Production Metrics
+ProductionVolume: Number of units produced per day.
+
+Data Type: Integer.
+Range: 100 to 1000 units/day.
+ProductionCost: Cost incurred for production per day.
+
+Data Type: Float.
+Range: $5000 to $20000.
+Supply Chain and Logistics
+SupplierQuality: Quality ratings of suppliers.
+
+Data Type: Float (%).
+Range: 80% to 100%.
+DeliveryDelay: Average delay in delivery.
+
+Data Type: Integer (days).
+Range: 0 to 5 days.
+Quality Control and Defect Rates
+DefectRate: Defects per thousand units produced.
+
+Data Type: Float.
+Range: 0.5 to 5.0 defects.
+QualityScore: Overall quality assessment.
+
+Data Type: Float (%).
+Range: 60% to 100%.
+Maintenance and Downtime
+MaintenanceHours: Hours spent on maintenance per week.
+
+Data Type: Integer.
+Range: 0 to 24 hours.
+DowntimePercentage: Percentage of production downtime.
+
+Data Type: Float (%).
+Range: 0% to 5%.
+Inventory Management
+InventoryTurnover: Ratio of inventory turnover.
+
+Data Type: Float.
+Range: 2 to 10.
+StockoutRate: Rate of inventory stockouts.
+
+Data Type: Float (%).
+Range: 0% to 10%.
+Workforce Productivity and Safety
+WorkerProductivity: Productivity level of the workforce.
+
+Data Type: Float (%).
+Range: 80% to 100%.
+SafetyIncidents: Number of safety incidents per month.
+
+Data Type: Integer.
+Range: 0 to 10 incidents.
+Energy Consumption and Efficiency
+EnergyConsumption: Energy consumed in kWh.
+
+Data Type: Float.
+Range: 1000 to 5000 kWh.
+EnergyEfficiency: Efficiency factor of energy usage.
+
+Data Type: Float.
+Range: 0.1 to 0.5.
+Additive Manufacturing
+AdditiveProcessTime: Time taken for additive manufacturing.
+
+Data Type: Float (hours).
+Range: 1 to 10 hours.
+AdditiveMaterialCost: Cost of additive materials per unit.
+
+Data Type: Float ($).
+Range: $100 to $500.
+Target Variable
+DefectStatus: Predicted defect status.
+
+Data Type: Binary (0 for Low Defects, 1 for High Defects).
+URL: https://www.kaggle.com/datasets/rabieelkharoua/predicting-manufacturing-defects-dataset
+
+3. 
+
+Dataset Description:
+The "Vehicle Sales and Market Trends Dataset" provides a comprehensive collection of information pertaining to the sales transactions of various vehicles. This dataset encompasses details such as the year, make, model, trim, body type, transmission type, VIN (Vehicle Identification Number), state of registration, condition rating, odometer reading, exterior and interior colors, seller information, Manheim Market Report (MMR) values, selling prices, and sale dates.
+
+Key Features:
+Vehicle Details: Includes specific information about each vehicle, such as its make, model, trim, and manufacturing year.
+
+Transaction Information: Provides insights into the sales transactions, including selling prices and sale dates.
+
+Market Trends: MMR values offer an estimate of the market value of each vehicle, allowing for analysis of market trends and fluctuations.
+
+Condition and Mileage: Contains data on the condition of the vehicles as well as their odometer readings, enabling analysis of how these factors influence selling prices.
+
+Potential Use Cases:
+
+Market Analysis: Researchers and analysts can utilize this dataset to study trends in the automotive market, including pricing fluctuations based on factors such as vehicle condition and mileage.
+
+Predictive Modeling: Data scientists can employ this dataset to develop predictive models for estimating vehicle prices based on various attributes.
+
+Business Insights: Automotive industry professionals, dealerships, and financial institutions can derive insights into consumer preferences, market demand, and pricing strategies.
+
+Format: The dataset is typically presented in tabular format (e.g., CSV) with rows representing individual vehicle sales transactions and columns representing different attributes associated with each transaction.
+
+Data Integrity: Efforts have been made to ensure the accuracy and reliability of the data; however, users are encouraged to perform their own validation and verification processes.
+
+Update Frequency: The dataset may be periodically updated to include new sales transactions and market data, providing fresh insights into ongoing trends in the automotive industry.
+URL: https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data
+
+4. 📝 Description
+This dataset contains detailed records of chocolate sales, including product details, sales quantities, revenue, and customer segments. It is designed for sales forecasting, trend analysis, and business intelligence, helping businesses optimize pricing strategies, inventory management, and customer targeting.
+
+📊 Collection Methodology
+Data was aggregated from chocolate retailers and online marketplaces.
+Only confirmed transactions were included to ensure accuracy.
+Revenue values reflect final prices after applying discounts, if any.
+🚀 Potential Use Cases
+✔ Sales Forecasting 📈 – Predict future sales trends based on historical data.
+
+✔ Customer Behavior Analysis 👥 – Identify purchasing patterns across different customer segments.
+
+✔ Market Trend Identification 🏪 – Analyze which chocolate categories perform best in various locations.
+
+✔ Business Decision-Making 🏆 – Optimize inventory, pricing, and marketing strategies based on data insights.
+
+📌 Ideal for data analysts, business intelligence professionals, and machine learning projects looking to explore retail sales insights in the chocolate industry! 🍫
+URL: https://www.kaggle.com/datasets/atharvasoundankar/chocolate-sales/data
+
+5.
+Context
+It is not always easy to find databases from real world manufacturing plants, specially mining plants. So, I would like to share this database with the community, which comes from one of the most important parts of a mining process: a flotation plant!
+
+PLEASE HELP ME GET MORE DATASETS LIKE THIS FILLING A 30s SURVEY:
+
+The main goal is to use this data to predict how much impurity is in the ore concentrate. As this impurity is measured every hour, if we can predict how much silica (impurity) is in the ore concentrate, we can help the engineers, giving them early information to take actions (empowering!). Hence, they will be able to take corrective actions in advance (reduce impurity, if it is the case) and also help the environment (reducing the amount of ore that goes to tailings as you reduce silica in the ore concentrate).
+
+Content
+The first column shows time and date range (from march of 2017 until september of 2017). Some columns were sampled every 20 second. Others were sampled on a hourly base.
+
+The second and third columns are quality measures of the iron ore pulp right before it is fed into the flotation plant. Column 4 until column 8 are the most important variables that impact in the ore quality in the end of the process. From column 9 until column 22, we can see process data (level and air flow inside the flotation columns, which also impact in ore quality. The last two columns are the final iron ore pulp quality measurement from the lab.
+Target is to predict the last column, which is the % of silica in the iron ore concentrate.
+
+Inspiration
+I have been working in this dataset for at least six months and would like to see if the community can help to answer the following questions:
+
+Is it possible to predict % Silica Concentrate every minute?
+
+How many steps (hours) ahead can we predict % Silica in Concentrate? This would help engineers to act in predictive and optimized way, mitigatin the % of iron that could have gone to tailings.
+
+Is it possible to predict % Silica in Concentrate whitout using % Iron Concentrate column (as they are highly correlated)?
+
+Related research using this dataset
+Research/Conference Papers and Master Thesis:
+
+Purities prediction in a manufacturing froth flotation plant: the deep learning techniques link
+Soft Sensor: Traditional Machine Learning or Deep Learning link
+Machine Learning-based Quality Prediction in the Froth Flotation Process of Mining link
+URL: https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process
