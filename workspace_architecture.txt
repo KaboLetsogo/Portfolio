@@ -23,6 +23,12 @@ and interactions/dependencies. It serves as a static, current snapshot of the re
 --------------------------------------------------------------------------------
 2. ANALYSIS NOTEBOOKS (CORE WORKFLOWS)
 --------------------------------------------------------------------------------
+*   ANOVA and AB Testing.ipynb
+    - Type: Jupyter Notebook (.ipynb)
+    - Description: Portfolio asset demonstrating A/B/C testing conversion rates using a Chi-Square test, and order values using a One-Way ANOVA and Tukey's HSD test.
+    - Dependencies: numpy, pandas, scipy.stats, statsmodels, matplotlib, seaborn.
+    - Video Scope: The technical companion for the second video in the statistics series, showing ad channel performance optimization.
+
 *   Paired T testing.ipynb
     - Type: Jupyter Notebook (.ipynb)
     - Description: Portfolio asset demonstrating a Paired Samples T-Test for operations/HR metrics and a conceptual bridge to Repeated Measures ANOVA.

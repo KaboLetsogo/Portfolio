@@ -98,6 +98,18 @@ Workspace: c:\Users\Kabo Letsogo\Documents\CODE\Portfolio
    - Updated "workspace_architecture.txt" to remove the deleted comprehensive demo notebook and catalog the new "Paired T testing.ipynb" notebook.
    - Uploaded the new notebook, project evolution log, and workspace architecture map to GitHub repository (origin/main).
 
+--------------------------------------------------------------------------------
+[2026-05-20T13:45:00+02:00] - ANOVA and AB Testing Notebook Creation
+--------------------------------------------------------------------------------
+1. DEVELOPMENT CHANGES:
+   - Generated a new Jupyter Notebook "ANOVA and AB Testing.ipynb" focusing strictly on Scenario 2 (Marketing Channel Performance Optimization) for the second video.
+   - Built a comprehensive notebook featuring:
+     - Clear, professional title card and executive overview of the marketing channel problem.
+     - Part A (Conversion Rates - Categorical): contingency table, Chi-Square Test of Independence, post-hoc pairwise Z-tests with Bonferroni correction, and a conversion bar chart with 95% Confidence Intervals.
+     - Part B (Order Values - Continuous): One-way ANOVA, Levene's variance homogeneity test, Tukey's HSD Post-Hoc Test, and a dual-panel visualization showing violin/jitter distributions and Tukey HSD confidence intervals.
+     - Appended a project goal and file contribution summary cell to the end of the notebook to comply with global workspace rules.
+   - Updated "workspace_architecture.txt" to catalog the new "ANOVA and AB Testing.ipynb" notebook.
+
 ================================================================================
 END OF LOG
 ================================================================================
