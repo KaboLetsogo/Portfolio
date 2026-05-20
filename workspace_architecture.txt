@@ -1,0 +1,116 @@
+================================================================================
+WORKSPACE ARCHITECTURE MAP
+================================================================================
+Current Date: 2026-05-20T13:30:00+02:00
+Workspace Root: c:\Users\Kabo Letsogo\Documents\CODE\Portfolio
+
+This document outlines all files in the workspace, detailing their purposes, sizes,
+and interactions/dependencies. It serves as a static, current snapshot of the repository structure.
+
+--------------------------------------------------------------------------------
+1. DOCUMENTATION & LOGS (NEW/UPDATED)
+--------------------------------------------------------------------------------
+*   project_evolution.txt
+    - Type: Plain Text (.txt)
+    - Description: Chronological log of the project's design history, decisions, and evolution.
+    - Dependencies: None. Tracks the process of all other files.
+
+*   workspace_architecture.txt (This File)
+    - Type: Plain Text (.txt)
+    - Description: Current architectural snapshot of all files and their interactions in the workspace.
+    - Dependencies: Lists all files in the directory.
+
+--------------------------------------------------------------------------------
+2. ANALYSIS NOTEBOOKS (CORE WORKFLOWS)
+--------------------------------------------------------------------------------
+*   Paired T testing.ipynb
+    - Type: Jupyter Notebook (.ipynb)
+    - Description: Portfolio asset demonstrating a Paired Samples T-Test for operations/HR metrics and a conceptual bridge to Repeated Measures ANOVA.
+    - Dependencies: numpy, pandas, scipy.stats, matplotlib, seaborn.
+    - Video Scope: The technical companion for the first video in the statistics series, showing how to test training outcomes in Python and Excel.
+
+*   Diamonds.ipynb
+    - Type: Jupyter Notebook (.ipynb)
+    - Description: Diamond dataset analysis and visual exploration notebook.
+    - Dependencies: pandas, numpy, seaborn, matplotlib, diamonds.csv.
+
+*   Manufacturing Defects Dataset.ipynb
+    - Type: Jupyter Notebook (.ipynb)
+    - Description: Analyzing and predicting defect rates in manufacturing plants.
+    - Dependencies: pandas, numpy, scikit-learn.
+
+*   S400 research project.ipynb
+    - Type: Jupyter Notebook (.ipynb)
+    - Description: Academic statistics project analyzing customer behavior or similar metrics.
+    - Dependencies: scipy, statsmodels, pandas.
+
+*   Vehicle Sales.ipynb
+    - Type: Jupyter Notebook (.ipynb)
+    - Description: Analyzes automotive sales transactions and Manheim Market Report (MMR) values.
+    - Dependencies: pandas, numpy, car_prices_cleaned.csv.
+
+*   data cleaner.ipynb
+    - Type: Jupyter Notebook (.ipynb)
+    - Description: Contains data wrangling and ETL routines to pre-process raw CSVs.
+    - Dependencies: pandas.
+
+--------------------------------------------------------------------------------
+3. DATASETS & STRUCTURAL FILES
+--------------------------------------------------------------------------------
+*   diamonds.csv
+    - Type: CSV Dataset (3.19 MB)
+    - Description: Attribute data for 53,940 diamonds (price, carat, cut, color, clarity).
+    - Used by: Diamonds.ipynb.
+
+*   car_prices.csv
+    - Type: CSV Dataset (88.0 MB)
+    - Description: Raw automotive transaction data (make, model, selling price).
+    - Used by: data cleaner.ipynb.
+
+*   car_prices_cleaned.csv
+    - Type: CSV Dataset (73.7 MB)
+    - Description: Cleaned, structured automotive dataset ready for modelling.
+    - Used by: Vehicle Sales.ipynb.
+
+*   car_prices_cleaned.xlsx
+    - Type: Excel Spreadsheet (85.3 MB)
+    - Description: Cleaned car prices spreadsheet for Excel-based manipulation.
+
+*   customer_shopping_data.csv
+    - Type: CSV Dataset (7.54 MB)
+    - Description: Customer shopping transactions containing product sales and customer demographics.
+
+*   AB Testing.xlsx
+    - Type: Excel Spreadsheet (10.4 KB)
+    - Description: Spreadsheet detailing Excel formulas for A/B testing calculations.
+
+*   basic t paired diff test.xlsx
+    - Type: Excel Spreadsheet (17.5 KB)
+    - Description: Excel sheet containing calculations for a dependent paired t-test.
+
+--------------------------------------------------------------------------------
+4. OTHER PORTFOLIO ASSETS
+--------------------------------------------------------------------------------
+*   car_prices PowerBI vis.pbix
+    - Type: PowerBI Visualization (8.1 MB)
+    - Description: Interactive dashboards visualizing automotive market trends and prices.
+
+*   decision_tree.pdf
+    - Type: PDF Document (107.8 KB)
+    - Description: Model architecture chart showing decision boundaries.
+
+*   Kabo_Letsogo_STAT400_Research_Project_True_Final (1).pdf
+    - Type: PDF Document (1.6 MB)
+    - Description: Formal statistics research paper detailing the methodology and conclusions of their STAT400 project.
+
+*   Sources.txt
+    - Type: Plain Text (.txt)
+    - Description: A collection of data source links and column descriptions from Kaggle datasets.
+
+================================================================================
+END OF ARCHITECTURE MAP
+================================================================================
+# workspace_architecture.txt
+# This file provides a comprehensive structure of the workspace, detailing every file's role and connections.
+# Overall Goal: Serve as a live architecture map that is updated whenever changes are made, preventing context drift.
+# File Contribution: Captures the static snapshot of the workspace files to maintain a clear organizational mapping.
